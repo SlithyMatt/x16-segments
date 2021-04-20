@@ -19,7 +19,7 @@ end_filenames:
 
 start:
    lda #1
-   ldx #8
+   ldx #SD_DEVICE
    ldy #1
    jsr SETLFS
    lda #(bank1_fn-golden_fn)
