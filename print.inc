@@ -11,7 +11,7 @@ RETURN = $0D
    beq :+
    jsr CHROUT
    inx
-   bra :-
+   bne :-
 :  lda #RETURN
    jsr CHROUT
 .endmacro
